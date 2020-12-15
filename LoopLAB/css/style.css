@@ -1,0 +1,162 @@
+body{
+    background: #333333;
+    color: #fff;
+}
+
+.navbar{
+    border-bottom: 3px solid rgb(158, 236, 0);
+    background: rgb(8, 8, 8);
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Home Section */
+
+#home-section{
+    background: url(../img/img\ \(7\).jpg); no-repeat; center-top;
+    background-size:cover;
+    min-height: 700px;
+    background-attachment: fixed;
+}
+
+#home-section .dark-overlay{
+    background:rgba(0,0,0,0.6);
+    min-height: 700px;
+}
+
+#home-section .home-inner{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+#home-section .fas{
+    font-size: 30px;
+}
+
+.card{
+    background-color:rgba(0,0,0,0.1);
+}
+
+#home-section .bg-me{
+    background: #5d5444;
+    background-color: transparent;
+    color: rgb(218, 207, 207);
+}
+
+#home-section .form-control{
+    background: #ddd3c1;
+    color: rgb(224, 214, 214);
+    border-color: rgb(231, 231, 209);
+}
+
+#home-section .btn-outline-light{
+    border-color: rgb(240, 222, 230);
+}
+
+/* Place section */
+
+#place-head-section{
+    background: url(../img/place\ 1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#place-main-section{
+    background-image: url(../img/place\ 2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(214, 211, 16);
+}
+
+#place-main-section .img{
+    background: transparent;
+}
+
+#place-main-section .fas{
+    font-size: 15px;
+}
+
+#place-main-section b{
+    font-size:25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Rider section */
+
+#rider-head-section{
+    background-image: url(../img/ride\ 1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fe6c70;
+}
+
+#rider-main-section{
+    background-image: url(../img/ride\ 2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}
+
+#rider-main-section .fas{
+    font-size: 15px;
+}
+
+#rider-main-section b{
+    font-size:25px;
+    font-family: lato,Helvetica,Arial,sans-serif;
+    font-style: normal;
+}
+
+/* Bikes section */
+
+#bikes-head-section{
+    background-image: url(../img/bike\ 1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#ebdc41;
+}
+
+#bikes-main-section{
+    background-image: url(../img/Screenshot_39.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#83dc19;
+}
+
+#bikes-main-section .fas{
+    font-size: 20px;
+}
+
+#bikes-main-section b{
+    font-size:18px;
+    font-family: lato,Helvetica,Arial,sans-serif;
+    font-style: normal;
+    margin-top: 2px;
+}
+.icon-area-1 h1{
+   text-align: center;
+}
+.container1{
+    width: 100%;
+}
+.icon-area-1 ul li{
+    display: inline-block;
+}
+
+.icon-area-1 ul li a{
+    color: white;
+    font-size: 30px;
+    display: block;
+    padding: 10px;    
+}
+
+.icon-area-1 ul li a:hover{
+    color: rgb(253, 1, 1);
+}   
